@@ -1,8 +1,19 @@
+@font-face {
+  font-family: Manrope;
+  src: url('./assets/fonts/Manrope-VariableFont_wght.ttf');
+}
+
+* {
+  font-family: Manrope;
+}
+
 body {
-  padding: 0;
+  padding: 1em;
   margin: 0;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background-color: hsl(210, 46%, 95%);
 }

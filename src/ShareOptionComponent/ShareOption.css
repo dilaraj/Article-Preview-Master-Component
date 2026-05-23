@@ -1,0 +1,29 @@
+.share-option-container {
+    background-color: hsl(217, 19%, 35%);
+    height: 4em;
+    padding: 0 2em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.share-btns-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.share-btns-container span {
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 0.5em;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+}

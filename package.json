@@ -1,7 +1,7 @@
 {
-  "homepage": "https://dilaraj.github.io/Article-Preview-Master-Component",
+  "homepage": "https://dilaraj.github.io/Article-Preview-Master-Component/",
   "name": "article-preview-component-master",
-  "private": true,
+  "private": true, 
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -29,3 +29,4 @@
     "vite": "^8.0.12"
   }
 }
+ 
