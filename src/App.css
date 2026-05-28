@@ -19,8 +19,11 @@
   object-fit: cover;
 }
 
-.article-info-container {
+.article-info-main-container {
   flex: 2;
+}
+
+.article-info-container {
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -40,3 +43,26 @@
   line-height: 23px;
 }
 
+@media (min-width: 768px) {
+  .article-preview-master-container {
+    flex-direction: row;
+    width: 45em;
+  }
+
+  .article-img-container {
+    flex: 2;
+    height: auto;
+  }
+
+  .article-info-main-container {
+    flex: 3;
+  }
+
+  .article-header {
+    font-size: 1.25rem;
+  }
+
+  .article-preview-content {
+    font-size: 0.85rem;
+  }
+}
